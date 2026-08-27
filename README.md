@@ -1,64 +1,78 @@
 # 🛍️ VProd - Responsive eCommerce Website
 
-A modern, fully responsive **eCommerce website** built using **HTML5, CSS3, and JavaScript**. This project showcases a clean UI, responsive layouts, product sections, category navigation, and interactive components for both desktop and mobile devices.
+<div align="center">
 
-> Designed as a frontend project to demonstrate responsive web design and modern UI development. The website title and assets are configured as **VProd** in the project source. :contentReference[oaicite:0]{index=0}
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+A modern, responsive eCommerce website built using **HTML5, CSS3, and JavaScript**.
+This project demonstrates a clean UI, responsive layouts, interactive components, and an engaging shopping experience across desktop and mobile devices.
+
+⭐ **If you like this project, don't forget to star the repository!**
+
+</div>
 
 ---
 
 ## 📸 Preview
 
-### Desktop View
-> Add your desktop screenshot here
+<div align="center">
 
-![Desktop Preview](website-demo-image\desktop.png)
+### 💻 Desktop View
 
-### Mobile View
-> Add your mobile screenshot here
+<img src="website-demo-image/desktop.png" width="900" alt="Desktop Preview"/>
 
-![Mobile Preview](website-demo-image\mobile.png)
+<br><br>
+
+### 📱 Mobile View
+
+<img src="website-demo-image/mobile.png" width="300" alt="Mobile Preview"/>
+
+</div>
+
+> **Note:** Create a folder named **`website-demo-image`** in your repository and place `desktop.png` and `mobile.png` inside it.
 
 ---
 
 ## ✨ Features
 
-- ✅ Fully Responsive Design
-- ✅ Modern & Clean UI
-- ✅ Desktop Navigation Menu
-- ✅ Mobile Navigation Drawer
-- ✅ Product Categories
-- ✅ Featured Products
-- ✅ Trending Products
-- ✅ New Arrivals Section
-- ✅ Deal of the Day
-- ✅ Product Cards
-- ✅ Customer Testimonials
-- ✅ Services Section
-- ✅ Newsletter Subscription Popup
-- ✅ Notification Toast
-- ✅ Search Bar
-- ✅ Footer with Useful Links
-- ✅ Smooth Animations
-- ✅ Cross Browser Compatible
+* 🎨 Modern and Clean UI
+* 📱 Fully Responsive Design
+* 🛒 Product Listings
+* 📂 Category Navigation
+* 🔍 Search Bar
+* 🎯 Deal of the Day Section
+* ⭐ Trending & New Arrivals
+* 💬 Customer Testimonials
+* 📧 Newsletter Subscription
+* 🔔 Notification Toast
+* 📜 Responsive Navigation Menu
+* 📦 Product Cards
+* ⚡ Smooth Animations
+* 🌐 Cross Browser Compatible
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Ion Icons
-- Google Fonts (Poppins)
+| Technology   | Usage                       |
+| ------------ | --------------------------- |
+| HTML5        | Website Structure           |
+| CSS3         | Styling & Responsive Design |
+| JavaScript   | Interactivity               |
+| Ion Icons    | Icons                       |
+| Google Fonts | Typography                  |
 
 ---
 
 ## 📂 Project Structure
 
-```
-VProd/
+```text
+Ecommerce-website/
 │
-├── index.html
 ├── assets/
 │   ├── css/
 │   │   ├── style.css
@@ -68,17 +82,15 @@ VProd/
 │   │   └── script.js
 │   │
 │   ├── images/
-│   │   ├── banner/
-│   │   ├── products/
-│   │   ├── blog/
-│   │   ├── icons/
-│   │   └── ...
-│   │
 │   └── logo/
 │
-├── desktop.png
-├── mobile.png
-└── README.md
+├── website-demo-image/
+│   ├── desktop.png
+│   └── mobile.png
+│
+├── index.html
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -88,14 +100,20 @@ VProd/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Parth-1506/VProd.git
+git clone https://github.com/Parth-1506/Ecommerce-website.git
 ```
 
-### Open the Project
+### Navigate to the Project
 
-Simply open the `index.html` file in your browser.
+```bash
+cd Ecommerce-website
+```
 
-or use VS Code Live Server.
+### Run the Website
+
+Simply open **index.html** in your browser.
+
+Or run it using **VS Code Live Server**.
 
 ---
 
@@ -103,107 +121,101 @@ or use VS Code Live Server.
 
 The website is optimized for:
 
-- 💻 Desktop
-- 💼 Laptop
-- 📱 Tablet
-- 📲 Mobile Devices
+* 💻 Desktop
+* 💼 Laptop
+* 📱 Tablet
+* 📲 Mobile
 
 ---
 
 ## 🎯 Website Sections
 
-- Header
-- Navigation Bar
-- Hero Banner
-- Categories
-- Best Sellers
-- New Arrivals
-- Trending Products
-- Top Rated Products
-- Deal of the Day
-- New Products
-- Testimonials
-- Services
-- Blog Section
-- Footer
+* Header
+* Hero Banner
+* Categories
+* Featured Products
+* New Arrivals
+* Trending Products
+* Deal of the Day
+* Testimonials
+* Services
+* Blog Section
+* Newsletter
+* Footer
 
 ---
 
 ## ⚙️ Interactive Features
 
-- Mobile Navigation Menu
-- Category Accordion
-- Newsletter Popup
-- Notification Toast
-- Product Hover Effects
-- Responsive Navigation
-- Smooth UI Interactions
-
-The JavaScript handles modal popups, notification toasts, mobile menu toggling, and accordion navigation for a more interactive user experience. :contentReference[oaicite:1]{index=1}
+* Responsive Navigation
+* Mobile Menu
+* Category Accordion
+* Newsletter Popup
+* Notification Toast
+* Product Hover Effects
+* Smooth UI Animations
 
 ---
 
+## 📈 Future Enhancements
 
-## 📈 Future Improvements
-
-- User Authentication
-- Shopping Cart
-- Wishlist Functionality
-- Product Search
-- Product Filtering
-- Dark Mode
-- Backend Integration
-- Payment Gateway
-- Order Tracking
-- Admin Dashboard
+* 👤 User Authentication
+* ❤️ Wishlist
+* 🛒 Shopping Cart
+* 🔎 Product Search & Filters
+* 💳 Payment Gateway
+* 📦 Order Tracking
+* 🌙 Dark Mode
+* 🗄️ Backend Integration
+* 📊 Admin Dashboard
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are always welcome!
 
-1. Fork the repository
-2. Create your feature branch
+1. Fork the repository.
+2. Create a new feature branch.
 
 ```bash
 git checkout -b feature/NewFeature
 ```
 
-3. Commit your changes
+3. Commit your changes.
 
 ```bash
-git commit -m "Add New Feature"
+git commit -m "Add new feature"
 ```
 
-4. Push to your branch
+4. Push your branch.
 
 ```bash
 git push origin feature/NewFeature
 ```
 
-5. Open a Pull Request
+5. Open a Pull Request.
 
 ---
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Parth**
 
-GitHub: https://github.com/Parth-1506
+* GitHub: https://github.com/Parth-1506
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the **MIT License**.
+This project is licensed under the **MIT License**.
 
 ---
 
-## ⭐ Show your support
+<div align="center">
 
-If you like this project, don't forget to ⭐ the repository!
+### 🌟 If you found this project helpful, please consider giving it a star!
 
----
+Made with ❤️ using **HTML, CSS & JavaScript**
 
-### Made with ❤️ using HTML, CSS & JavaScript
+</div>
