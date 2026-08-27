@@ -33,7 +33,6 @@ This project demonstrates a clean UI, responsive layouts, interactive components
 
 </div>
 
-> **Note:** Create a folder named **`website-demo-image`** in your repository and place `desktop.png` and `mobile.png` inside it.
 
 ---
 
